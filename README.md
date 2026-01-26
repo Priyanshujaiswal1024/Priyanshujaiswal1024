@@ -52,8 +52,24 @@ I'm passionate about building robust backend applications, mastering Spring ecos
 
 ## 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Priyanshujaiswal1024&show_icons=true&theme=tokyonight" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Priyanshujaiswal1024&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Priyanshujaiswal1024&show_icons=true&theme=radical&count_private=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Priyanshujaiswal1024&theme=radical" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshujaiswal1024&layout=compact&theme=radical&langs_count=8&hide=html,css"/>
+</p>
+
+---
+
+---
+
+## 💻 My Tech Focus
+<p align="center">
+  <img src="https://img.shields.io/badge/Specialization-Java_Backend-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framework-Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Data_Access-JDBC-007396?style=for-the-badge&logo=java&logoColor=white"/>
 </p>
 
 ---
@@ -79,9 +95,9 @@ I'm passionate about building robust backend applications, mastering Spring ecos
 
 ## 🤝 Connect With Me  
 - 💼 GitHub: [@Priyanshujaiswal1024](https://github.com/Priyanshujaiswal1024)
-- 📧 Email: *Add your email here*
+- 📧 Email: *priyanshjais123@gmail.com*
 - 🌐 Portfolio: *Coming Soon*
-- 💼 LinkedIn: *Add your LinkedIn here*
+- 💼 LinkedIn: *www.linkedin.com/in/priyanshujava*
 
 ---
 
