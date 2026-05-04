@@ -1,14 +1,13 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Priyanshu%20Jaiswal&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Java%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20Kafka%20%7C%20Docker&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Priyanshu%20Jaiswal&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Java%20Full%20Stack%20Developer%20%7C%20React%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20Kafka%20%7C%20Docker&descAlignY=60&descSize=18" width="100%"/>
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=👋+Hey%2C+I'm+Priyanshu+Jaiswal!;☕+Java+Developer+%7C+Spring+Boot+Expert;🚀+Microservices+Architect+%7C+Kafka+%7C+Docker;🔐+Spring+Security+%7C+OAuth2+%7C+JWT)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=👋+Hey%2C+I'm+Priyanshu+Jaiswal!;💻+Java+Full+Stack+Developer;⚛️+React+%2B+Spring+Boot;🚀+Microservices+%7C+Kafka+%7C+Docker)](https://git.io/typing-svg)
 <br/>
 
-<!-- Profile Views & Followers -->
+<!-- Profile Stats -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Priyanshujaiswal1024&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
 [![GitHub followers](https://img.shields.io/github/followers/Priyanshujaiswal1024?style=for-the-badge&color=blue&label=FOLLOWERS)](https://github.com/Priyanshujaiswal1024)
 [![GitHub stars](https://img.shields.io/github/stars/Priyanshujaiswal1024?style=for-the-badge&color=yellow&label=TOTAL+STARS)](https://github.com/Priyanshujaiswal1024)
@@ -26,15 +25,15 @@
 public class Priyanshu {
 
     private final String name = "Priyanshu Jaiswal";
-    private final String role = "Java Backend Developer";
+    private final String role = "Java Full Stack Developer";
     private final String location = "India 🇮🇳";
 
     private final List<String> focus = List.of(
-        "Microservices Architecture",
-        "Spring Boot & Spring Security",
-        "Apache Kafka & Event Streaming",
-        "Docker & Containerization",
-        "REST APIs & Cloud-Native Dev"
+     "Full Stack Development (React + Spring Boot)",
+    "Microservices Architecture",
+    "REST APIs & Frontend Integration",
+    "Spring Security & OAuth2",
+    "Docker & Cloud Deployment"
     );
 
     public String getCurrentlyLearning() {
@@ -66,22 +65,28 @@ public class Priyanshu {
 ### 🏗️ Microservices & Messaging
 ![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=serverless&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ### 🐳 DevOps & Containers
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 
 ### 🗄️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### 🎨 Frontend Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### 🔐 Auth & Security
 ![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
@@ -96,33 +101,8 @@ public class Priyanshu {
 
 </div>
 
----
 
-## 🏛️ Microservices Architecture I Work With
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    API GATEWAY (Spring Cloud)                │
-└──────────────┬──────────────────────────┬───────────────────┘
-               │                          │
-    ┌──────────▼─────┐          ┌─────────▼──────────┐
-    │  Auth Service  │          │  Business Services │
-    │  (OAuth2/JWT)  │          │  (Spring Boot)     │
-    └──────────┬─────┘          └─────────┬──────────┘
-               │                          │
-    ┌──────────▼──────────────────────────▼──────────┐
-    │              Apache Kafka (Event Bus)           │
-    │   Producer ──────────────────────> Consumer    │
-    └──────────────────────────────────────────────--┘
-               │                          │
-    ┌──────────▼─────┐          ┌─────────▼──────────┐
-    │   MySQL / PG   │          │   MongoDB / Redis  │
-    └────────────────┘          └────────────────────┘
-               │                          │
-    ┌──────────▼──────────────────────────▼──────────┐
-    │         🐳 Docker / Docker Compose              │
-    └─────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -141,39 +121,67 @@ public class Priyanshu {
 </div>
 
 ---
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Priyanshujaiswal1024&theme=tokyonight&column=7&no-frame=true&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+## 🚀 What I Focus On
+✔ Building scalable Spring Boot applications  
+✔ Learning React for full stack development  
+✔ Working on real-world backend systems  
 
 ---
 
 ## 📌 Featured Projects
 
+ 
 <div align="center">
+    
+| 🚀 Project | 🏗️ Architecture | 🛠 Stack | 📝 Description |
+|:----------:|:---------------:|:--------:|:--------------:|
+| **🏥 Hospital Management System** | 🧱 Monolithic | Spring Boot · OAuth2 · Spring Security · MySQL · Docker | Full-stack HMS — doctor onboarding, appointments, role-based access & email notifications |
+| **🏨 Hotel Management System** | 🔀 Microservices | Spring Cloud · Kafka · JWT · MySQL · Docker Compose | Distributed hotel system — booking, billing & inventory as independent services via Kafka events |
+ 
 
-| 🚀 Project | 🛠 Stack | 📝 Description |
-|:----------:|:--------:|:--------------:|
-| **Hospital Management System** | Spring Boot · OAuth2 · MySQL · Docker | Full-stack HMS with doctor onboarding & notifications |
-| **Event-Driven Order Service** | Spring Boot · Kafka · PostgreSQL | Async order processing via Kafka topics |
-| **Microservices Gateway** | Spring Cloud · JWT · Redis | API Gateway with rate limiting & auth |
-| **Inventory Tracker** | Spring Boot · MongoDB · REST | Real-time inventory with CRUD APIs |
 
 </div>
+## 🌐 Frontend Projects
 
+<div align="center">
+
+| 💻 Project | ⚙️ Tech Stack | 🚀 Features |
+|:----------:|:-------------:|:-----------:|
+| 🧮 Smart Calculator | HTML · CSS · JavaScript | Real-time calculations, keyboard support |
+| 🌐 Portfolio Website | HTML · CSS · JS | Responsive design, animations, project showcase |
+| ⏰ Digital Clock | JavaScript | Live time updates, clean UI |
+| 🖼️ Image Gallery | JS · CSS Grid | Dynamic images, hover effects |
+
+
+</div>
 ---
 
-## 📈 Expertise Timeline
-
+## 📈 My Learning Journey
+ 
 ```
-2022 ───── Core Java · OOP · DSA · MySQL
-2023 ───── Spring Boot · REST APIs · JPA/Hibernate · Git
-2024 ───── Spring Security · OAuth2 · JWT · Docker · MongoDB
-2025 ───── Microservices · Apache Kafka · Spring Cloud · Kubernetes
+2024 ──── Started B.Tech CSE @ Geeta University 🎓
+         │
+         └── C · C++ · Java · DSA
+                HTML · CSS · JavaScript · React
+                Core Programming & Problem Solving
+ 
+2025- 2026 ──── Full Stack & Backend Dev Mode ON 🚀
+         │
+         ├── Spring Boot · Spring Security · Spring Cloud
+         │   REST APIs · JPA/Hibernate · Maven · Git
+         │   SQL · MySQL · MongoDB · Redis
+         │   OAuth2 · JWT · Docker · Microservices
+         │   Apache Kafka · Docker Compose
+         │
+         ├── 🏥 Hospital Management System (Monolithic)
+         │      Google Login · Role-based Access · Email Notifications
+         │
+         └── 🏨 Hotel Management System (Microservices)
+                Event-Driven · Kafka · API Gateway · Docker Compose
+ 
+2026 ──── Currently Learning ☁️
+         │
+         └── AWS · Kubernetes · CI/CD · Spring AI
 ```
 
 ---
