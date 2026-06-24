@@ -1,47 +1,72 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Priyanshu%20Jaiswal&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Java%20Full%20Stack%20Developer%20%7C%20React%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20Kafka%20%7C%20Docker&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0d1117,100:161b22&height=0&section=header" width="100%"/>
 
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=👋+Hey%2C+I'm+Priyanshu+Jaiswal!;💻+Java+Full+Stack+Developer;⚛️+React+%2B+Spring+Boot;🚀+Microservices+%7C+Kafka+%7C+Docker)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=280&section=header&text=PRIYANSHU%20JAISWAL&fontSize=68&fontColor=00d9ff&animation=fadeIn&fontAlignY=40&desc=Java%20Full%20Stack%20%E2%80%A2%20Cloud%20Native%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Distributed%20Systems&descAlignY=62&descSize=17&descColor=a0d8ff&stroke=00d9ff&strokeWidth=1" width="100%"/>
+
 <br/>
 
-<!-- Profile Stats -->
-![Profile Views](https://komarev.com/ghpvc/?username=Priyanshujaiswal1024&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-[![GitHub followers](https://img.shields.io/github/followers/Priyanshujaiswal1024?style=for-the-badge&color=blue&label=FOLLOWERS)](https://github.com/Priyanshujaiswal1024)
-[![GitHub stars](https://img.shields.io/github/stars/Priyanshujaiswal1024?style=for-the-badge&color=yellow&label=TOTAL+STARS)](https://github.com/Priyanshujaiswal1024)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1200&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=130&lines=%E2%9A%A1+Engineering+Enterprise-Grade+AI+%26+Distributed+Systems;%F0%9F%A7%A0+Spring+AI+%E2%80%A2+RAG+%E2%80%A2+Vector+Search+%E2%80%A2+MCP+Protocol;%E2%98%81%EF%B8%8F+Kubernetes+%E2%80%A2+Kafka+%E2%80%A2+AWS+%E2%80%A2+Microservices+at+Scale;%F0%9F%9A%80+Turning+Complex+Problems+Into+Elegant+Systems)](https://git.io/typing-svg)
+
+<br/>
+
+<a href="https://www.linkedin.com/in/priyanshujava">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="https://github.com/Priyanshujaiswal1024">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="mailto:priyanshjais123@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=Priyanshujaiswal1024&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0d1117"/>
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+<div align="center">
 
-## 🧑‍💻 About Me
+## `> whoami`
+
+</div>
+
+<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 ```java
-@Component
-public class Priyanshu {
+@EnterpriseEngineer
+@CloudNative @AIEnabled
+public class PriyanshuJaiswal extends SoftwareEngineer {
 
-    private final String name = "Priyanshu Jaiswal";
-    private final String role = "Java Full Stack Developer";
-    private final String location = "India 🇮🇳";
+    private final String name      = "Priyanshu Jaiswal";
+    private final String location  = "India 🇮🇳";
 
-    private final List<String> focus = List.of(
-     "Full Stack Development (React + Spring Boot)",
-    "Microservices Architecture",
-    "REST APIs & Frontend Integration",
-    "Spring Security & OAuth2",
-    "Docker & Cloud Deployment"
+    private final String[] roles = {
+        "Java Full Stack Developer",
+        "Backend Engineer",
+        "Cloud Native Developer",
+        "AI Engineer"
+    };
+
+    private final String mission =
+        "Building scalable microservices, AI systems, " +
+        "cloud-native platforms & enterprise applications";
+
+    private final Map<String, String[]> expertise = Map.of(
+        "Backend",    new String[]{"Spring Boot","Microservices","REST","gRPC","Kafka"},
+        "AI",         new String[]{"Spring AI","RAG","PGVector","Ollama","MCP","Agents"},
+        "Cloud",      new String[]{"AWS EC2","S3","RDS","VPC","IAM","CloudWatch"},
+        "DevOps",     new String[]{"Kubernetes","Docker","Jenkins","GitHub Actions","CI/CD"},
+        "Frontend",   new String[]{"React","JavaScript","HTML","CSS","Bootstrap"},
+        "Databases",  new String[]{"PostgreSQL","MySQL","MongoDB","Redis","PGVector"}
     );
 
-    public String getCurrentlyLearning() {
-        return "Kubernetes + Cloud Deployment";
+    public String getCurrentFocus() {
+        return "Advanced K8s · Spring AI Agents · AWS · LLM Fine-Tuning";
     }
 
-    public String getFunFact() {
-        return "I debug with ☕ and ship with 🐳";
+    public String getPhilosophy() {
+        return "First solve the problem, then write the code ☕";
     }
 }
 ```
@@ -50,49 +75,362 @@ public class Priyanshu {
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🏆 Trophy Wall
 
 <div align="center">
 
-### ☕ Core — Java Ecosystem
+[![trophy](https://github-profile-trophy.vercel.app/?username=Priyanshujaiswal1024&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+<div align="center">
+
+## ⚡ FLAGSHIP PROJECT
+
+<img src="https://img.shields.io/badge/STATUS-PRODUCTION%20READY-00ff88?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/ARCHITECTURE-ENTERPRISE%20MICROSERVICES-00d9ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/AI%20POWERED-SPRING%20AI%20%2B%20RAG-ff6f00?style=for-the-badge&labelColor=0d1117"/>
+
+</div>
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║    🤖  AI-POWERED RESUME SCREENING & TALENT INTELLIGENCE PLATFORM            ║
+║        Enterprise · Cloud-Native · AI-First · Kubernetes-Ready               ║
+║                                                                               ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║                                                                               ║
+║   INTELLIGENCE PIPELINE                                                       ║
+║   ─────────────────────────────────────────────────────────────────────────  ║
+║   📄 Resume Upload  ──▶  🔍 Apache Tika  ──▶  ✂️ Chunking  ──▶  🧮 Embed   ║
+║   🗄️  PGVector      ──▶  🔎 Retrieval   ──▶  🧠 RAG       ──▶  🤖 LLM     ║
+║   📊 AI Scoring     ──▶  💬 Copilot     ──▶  📈 Dashboard  ──▶  🎯 Hire   ║
+║                                                                               ║
+║   CORE CAPABILITIES                                                           ║
+║   ─────────────────────────────────────────────────────────────────────────  ║
+║   ✦ Recruiter AI Copilot (Chat Memory + Context)                             ║
+║   ✦ Semantic Candidate Ranking (PGVector + Embeddings)                       ║
+║   ✦ Explainable AI Scoring with Reasoning                                    ║
+║   ✦ Real-Time Event Processing via Apache Kafka                              ║
+║   ✦ AI Resume Parsing with Apache Tika                                       ║
+║   ✦ Skill Gap Analysis & Candidate Comparison                                ║
+║   ✦ RAG Pipeline with pgvector Semantic Retrieval                            ║
+║   ✦ Multi-Service · Kubernetes-Ready · Docker Compose Dev                   ║
+║                                                                               ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  Spring AI · Kafka · Redis · PGVector · Kubernetes · React · Ollama · Docker ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
+
+### 🧠 AI Resume Screening — System Architecture
+
+```mermaid
+flowchart TD
+    A([📄 Resume Upload\nReact Frontend]) --> B[API Gateway\nSpring Cloud]
+    B --> C[Resume Service\nSpring Boot]
+    C --> D[Apache Tika\nParsing Engine]
+    D --> E[Text Chunker\nOverlapping Windows]
+    E --> F[Embedding Service\nOllama / OpenAI]
+    F --> G[(PGVector\nVector Store)]
+
+    B --> H[Job Service\nSpring Boot]
+    H --> I[(PostgreSQL\nJob Descriptions)]
+
+    G --> J[Semantic Retrieval\nCosine Similarity]
+    I --> J
+    J --> K[RAG Engine\nSpring AI]
+    K --> L[LLM Processor\nOllama · llama3]
+    L --> M[AI Scoring Engine\nExplainable Results]
+
+    M --> N[(Redis Cache\nScores + Sessions)]
+    M --> O[Kafka Producer\nScore Events]
+    O --> P[Kafka Topics\nresume-scored]
+    P --> Q[Ranking Consumer\nReal-Time Update]
+
+    Q --> R[Recruiter Dashboard\nReact + REST]
+    R --> S[AI Copilot\nChat Interface]
+    S --> T[Spring AI ChatClient\nTool Calling + Memory]
+    T --> K
+
+    style A fill:#1a1a2e,stroke:#00d9ff,color:#00d9ff
+    style L fill:#1a1a2e,stroke:#ff6f00,color:#ff6f00
+    style G fill:#1a1a2e,stroke:#4169e1,color:#4169e1
+    style O fill:#1a1a2e,stroke:#231f20,color:#ffffff
+    style R fill:#1a1a2e,stroke:#61dafb,color:#61dafb
+```
+
+---
+
+## 🏗️ Microservices Architecture
+
+```mermaid
+graph TB
+    Client([🌐 React Client]) --> GW[🔀 API Gateway\nSpring Cloud Gateway]
+
+    GW --> |/auth| AS[🔐 Auth Service\nSpring Security · JWT · OAuth2]
+    GW --> |/resumes| RS[📄 Resume Service\nSpring Boot]
+    GW --> |/jobs| JS[💼 Job Service\nSpring Boot]
+    GW --> |/ai| AIS[🤖 AI Service\nSpring AI · RAG]
+    GW --> |/notifications| NS[📬 Notification Service\nSpring Boot · Mail]
+
+    AS --> DB1[(PostgreSQL\nUsers)]
+    RS --> DB2[(PostgreSQL\nResumes)]
+    JS --> DB3[(PostgreSQL\nJobs)]
+    AIS --> DB4[(PGVector\nEmbeddings)]
+    AIS --> CACHE[(Redis\nSessions + Cache)]
+
+    RS --> KP[📨 Kafka Producer\nresume-uploaded]
+    JS --> KP2[📨 Kafka Producer\njob-created]
+    KP --> KB[Apache Kafka\nEvent Broker]
+    KP2 --> KB
+    KB --> KC[📥 Kafka Consumer\nAI Service]
+    KB --> KC2[📥 Kafka Consumer\nNotification Service]
+
+    SD[🔎 Eureka Server\nService Discovery] -.-> GW
+    SD -.-> RS
+    SD -.-> JS
+    SD -.-> AIS
+
+    style GW fill:#0d1117,stroke:#00d9ff,color:#00d9ff
+    style KB fill:#0d1117,stroke:#ffffff,color:#ffffff
+    style AIS fill:#0d1117,stroke:#ff6f00,color:#ff6f00
+    style SD fill:#0d1117,stroke:#6db33f,color:#6db33f
+```
+
+---
+
+## ☁️ AWS Cloud Architecture
+
+```mermaid
+graph TB
+    subgraph Internet
+        U([👤 Users]) --> CF[CloudFront CDN]
+    end
+
+    subgraph AWS_VPC["AWS VPC — us-east-1"]
+        subgraph Public_Subnet["Public Subnet"]
+            CF --> ALB[Application Load Balancer]
+            BAS[Bastion Host]
+        end
+
+        subgraph Private_Subnet_App["Private Subnet — App Tier"]
+            ALB --> EC2_1[EC2 Auto Scaling Group\nSpring Boot Microservices]
+            EC2_1 --> ECR[ECR Container Registry]
+        end
+
+        subgraph Private_Subnet_DB["Private Subnet — Data Tier"]
+            EC2_1 --> RDS[RDS PostgreSQL\nMulti-AZ]
+            EC2_1 --> REDIS[ElastiCache Redis]
+            EC2_1 --> S3[S3 — Resumes + Assets]
+        end
+
+        subgraph K8s_Cluster["EKS Cluster"]
+            ALB --> ING[Ingress Controller]
+            ING --> SVC[K8s Services]
+            SVC --> PODS[Microservice Pods\nHPA Auto-Scaling]
+        end
+    end
+
+    subgraph Observability
+        EC2_1 --> CW[CloudWatch Logs]
+        EC2_1 --> PROM[Prometheus + Grafana]
+    end
+
+    IAM[IAM Roles\n& Policies] -.-> EC2_1
+    IAM -.-> RDS
+    IAM -.-> S3
+
+    style ALB fill:#0d1117,stroke:#ff9900,color:#ff9900
+    style RDS fill:#0d1117,stroke:#527fff,color:#527fff
+    style PODS fill:#0d1117,stroke:#326ce5,color:#326ce5
+    style IAM fill:#0d1117,stroke:#ff9900,color:#ff9900
+```
+
+---
+
+## 🔄 Spring AI RAG Pipeline
+
+```mermaid
+flowchart LR
+    subgraph Ingestion["📥 Document Ingestion"]
+        A[PDF / Resume] --> B[TokenTextSplitter\nChunking]
+        B --> C[Embedding Model\nOllama nomic-embed]
+        C --> D[(PGVectorStore\nEmbeddings)]
+    end
+
+    subgraph Retrieval["🔍 Semantic Retrieval"]
+        E[User Query] --> F[Query Embedding\nnomic-embed-text]
+        F --> G[Cosine Similarity\nTop-K Search]
+        D --> G
+        G --> H[Relevant Chunks\nContext Documents]
+    end
+
+    subgraph Generation["🤖 Augmented Generation"]
+        H --> I[PromptTemplate\n+ System Context]
+        E --> I
+        I --> J[ChatClient\nSpring AI]
+        J --> K[LLM — Ollama\nllama3 / mistral]
+        K --> L[AI Response\nExplainable Scoring]
+    end
+
+    subgraph Memory["💬 Conversation Memory"]
+        L --> M[ChatMemory\nInMemory / Redis]
+        M --> J
+    end
+
+    style D fill:#0d1117,stroke:#4169e1,color:#4169e1
+    style K fill:#0d1117,stroke:#ff6f00,color:#ff6f00
+    style J fill:#0d1117,stroke:#6db33f,color:#6db33f
+```
+
+---
+
+## ⚙️ Jenkins CI/CD Pipeline
+
+```mermaid
+flowchart LR
+    A([👨‍💻 Git Push\ngithub.com]) --> B[🔔 GitHub Webhook\nTrigger]
+    B --> C[Jenkins Pipeline\nDeclarative]
+
+    C --> D[📥 Checkout\nSCM Stage]
+    D --> E[🔨 Maven Build\nmvn clean package]
+    E --> F[🧪 Unit Tests\nJUnit5 + Mockito]
+    F --> G{Tests\nPassed?}
+
+    G -->|✅ Yes| H[🐳 Docker Build\nMulti-Stage]
+    G -->|❌ No| FAIL([🚨 Notify\nBuild Failed])
+
+    H --> I[🔍 Trivy Scan\nVulnerabilities]
+    I --> J[📦 Docker Push\nECR Registry]
+    J --> K[☸️ kubectl apply\nK8s Deployment]
+    K --> L[📊 Health Check\nReadiness Probe]
+    L --> M{Healthy?}
+
+    M -->|✅| SUCCESS([✅ Slack Notify\nDeployed!])
+    M -->|❌| ROLLBACK([🔄 Auto Rollback\nPrev Version])
+
+    style C fill:#0d1117,stroke:#d24939,color:#d24939
+    style K fill:#0d1117,stroke:#326ce5,color:#326ce5
+    style SUCCESS fill:#0d1117,stroke:#00ff88,color:#00ff88
+    style ROLLBACK fill:#0d1117,stroke:#ff4444,color:#ff4444
+```
+
+---
+
+## ☸️ Kubernetes Deployment Architecture
+
+```mermaid
+graph TB
+    subgraph K8s_Cluster["☸️ Kubernetes Cluster"]
+
+        subgraph Ingress_Layer["Ingress Layer"]
+            ING[Nginx Ingress Controller\nTLS Termination + Routing]
+        end
+
+        subgraph App_Layer["Application Layer"]
+            ING --> SVC_GW[Service: api-gateway\nClusterIP]
+            SVC_GW --> DEP_GW[Deployment: api-gateway\nReplicas: 3\nHPA: CPU > 70%]
+
+            ING --> SVC_AI[Service: ai-service\nClusterIP]
+            SVC_AI --> DEP_AI[Deployment: ai-service\nReplicas: 2]
+
+            DEP_GW --> SVC_RS[Service: resume-service]
+            DEP_GW --> SVC_JS[Service: job-service]
+        end
+
+        subgraph Config_Layer["Configuration Layer"]
+            CM[ConfigMap\napplication.yml] -.-> DEP_GW
+            SEC[Secret\nDB creds · API keys] -.-> DEP_GW
+            PVC[PersistentVolumeClaim\nPostgreSQL data] -.-> DEP_GW
+        end
+
+        subgraph Health["Self-Healing"]
+            LP[Liveness Probe\n/actuator/health]
+            RP[Readiness Probe\n/actuator/ready]
+            LP -.-> DEP_GW
+            RP -.-> DEP_GW
+        end
+    end
+
+    style ING fill:#0d1117,stroke:#326ce5,color:#326ce5
+    style DEP_AI fill:#0d1117,stroke:#ff6f00,color:#ff6f00
+    style SEC fill:#0d1117,stroke:#ff4444,color:#ff4444
+```
+
+---
+
+## 🛠️ Technology Arsenal
+
+<div align="center">
+
+### ☕ Java & Spring Ecosystem
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
-### 🏗️ Microservices & Messaging
+### 🤖 AI & Generative AI Engineering
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipeline-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
+![PGVector](https://img.shields.io/badge/PGVector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Protocol-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-FF4500?style=for-the-badge&logo=openai&logoColor=white)
+![Embeddings](https://img.shields.io/badge/Vector_Embeddings-00BCD4?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Semantic Search](https://img.shields.io/badge/Semantic_Search-9C27B0?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+### 🏗️ Architecture & Messaging
 ![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=serverless&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF9900?style=for-the-badge&logo=amazon-api-gateway&logoColor=white)
+![Event Driven](https://img.shields.io/badge/Event_Driven-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+
+### ☁️ AWS Cloud
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-8C4FFF?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![ALB](https://img.shields.io/badge/Load_Balancer-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### 🐳 DevOps & Containers
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
+![CI/CD](https://img.shields.io/badge/CI%2FCD-4CAF50?style=for-the-badge&logo=circleci&logoColor=white)
 
 ### 🗄️ Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-### 🎨 Frontend Development
+![PGVector](https://img.shields.io/badge/PGVector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### 🔐 Auth & Security
+### 🔐 Security & Auth
 ![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 
-### 🧰 Tools & Platforms
+### 🧰 Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -101,119 +439,204 @@ public class Priyanshu {
 
 </div>
 
-
-
-
 ---
 
-## 📊 GitHub Stats
+## 🤖 AI Engineering Deep Dive
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Priyanshujaiswal1024&show_icons=true&theme=tokyonight&count_private=true&border_radius=10&hide_border=false" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Priyanshujaiswal1024&theme=tokyonight&border_radius=10" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshujaiswal1024&layout=compact&theme=tokyonight&langs_count=8&border_radius=10&hide=html,css"/>
-
-<!-- Activity Graph -->
-[![Priyanshu's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Priyanshujaiswal1024&theme=tokyo-night&hide_border=true&area=true)](https://github.com/Priyanshujaiswal1024)
-
-</div>
-
----
-## 🚀 What I Focus On
-✔ Building scalable Spring Boot applications  
-✔ Learning React for full stack development  
-✔ Working on real-world backend systems  
-
----
-
-## 📌 Featured Projects
-
- 
-<div align="center">
-    
-| 🚀 Project | 🏗️ Architecture | 🛠 Stack | 📝 Description |
-|:----------:|:---------------:|:--------:|:--------------:|
-| **🏥 Hospital Management System** | 🧱 Monolithic | Spring Boot · OAuth2 · Spring Security · MySQL · Docker | Full-stack HMS — doctor onboarding, appointments, role-based access & email notifications |
-| **🏨 Hotel Management System** | 🔀 Microservices | Spring Cloud · Kafka · JWT · MySQL · Docker Compose | Distributed hotel system — booking, billing & inventory as independent services via Kafka events |
- 
-
-
-</div>
-## 🌐 Frontend Projects
-
-<div align="center">
-
-| 💻 Project | ⚙️ Tech Stack | 🚀 Features |
-|:----------:|:-------------:|:-----------:|
-| 🧮 Smart Calculator | HTML · CSS · JavaScript | Real-time calculations, keyboard support |
-| 🌐 Portfolio Website | HTML · CSS · JS | Responsive design, animations, project showcase |
-| ⏰ Digital Clock | JavaScript | Live time updates, clean UI |
-| 🖼️ Image Gallery | JS · CSS Grid | Dynamic images, hover effects |
-
-
-</div>
----
-
-## 📈 My Learning Journey
- 
 ```
-2024 ──── Started B.Tech CSE @ Geeta University 🎓
-         │
-         └── C · C++ · Java · DSA
-                HTML · CSS · JavaScript · React
-                Core Programming & Problem Solving
- 
-2025- 2026 ──── Full Stack & Backend Dev Mode ON 🚀
-         │
-         ├── Spring Boot · Spring Security · Spring Cloud
-         │   REST APIs · JPA/Hibernate · Maven · Git
-         │   SQL · MySQL · MongoDB · Redis
-         │   OAuth2 · JWT · Docker · Microservices
-         │   Apache Kafka · Docker Compose
-         │
-         ├── 🏥 Hospital Management System (Monolithic)
-         │      Google Login · Role-based Access · Email Notifications
-         │
-         └── 🏨 Hotel Management System (Microservices)
-                Event-Driven · Kafka · API Gateway · Docker Compose
- 
-2026 ──── Currently Learning ☁️
-         │
-         └── AWS · Kubernetes · CI/CD · Spring AI
+╔══════════════════════════════════════════════════════════════╗
+║          SPRING AI · CORE CAPABILITIES MATRIX               ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  ChatClient API     ──▶  Fluent builder · streaming · sync  ║
+║  Tool Calling       ──▶  @Tool methods · function calling   ║
+║  MCP Protocol       ──▶  Model Context Protocol · Agents    ║
+║  RAG Pipeline       ──▶  ETL · Embedding · Retrieval        ║
+║  VectorStore        ──▶  PGVector · Pinecone · Chroma       ║
+║  ChatMemory         ──▶  InMemory · Redis · Conversation    ║
+║  Advisors           ──▶  QuestionAnswerAdvisor · Custom     ║
+║  Prompt Engineering ──▶  PromptTemplate · SystemMessage     ║
+║  Semantic Search    ──▶  Cosine similarity · Top-K          ║
+║  AI Agents          ──▶  Autonomous · Tool-aware · Context  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+```mermaid
+mindmap
+  root((🤖 AI Engineering))
+    Spring AI
+      ChatClient
+      Tool Calling
+      Advisors
+      Streaming
+    RAG Pipeline
+      Document Parsing
+      Text Chunking
+      Vector Embeddings
+      Semantic Retrieval
+    LLMs
+      Ollama
+      llama3
+      mistral
+      nomic-embed
+    Vector Stores
+      PGVector
+      Cosine Similarity
+      Top-K Search
+      Hybrid Search
+    Agents & MCP
+      MCP Protocol
+      Tool Registry
+      Function Calling
+      Autonomous Agents
+    Prompt Engineering
+      System Prompts
+      Few-Shot
+      Chain of Thought
+      Context Window
 ```
 
 ---
 
-## 🤝 Connect With Me
+## ☸️ Kubernetes Expertise
+
+```
+  Kubernetes Object Mastery
+  ──────────────────────────────────────────────────────────────
+  Pod               ██████████████████████░░  90%   Core unit of deployment
+  Deployment        ████████████████████░░░░  85%   Rolling updates + replicas
+  Service           ████████████████████░░░░  85%   ClusterIP · NodePort · LB
+  ConfigMap         ██████████████████████░░  90%   Externalized configuration
+  Secret            ██████████████████████░░  90%   Encrypted sensitive data
+  Ingress           ████████████████████░░░░  85%   TLS · path routing · nginx
+  HPA               ████████████████████░░░░  80%   CPU / custom metric scaling
+  PVC               ███████████████████░░░░░  78%   Stateful data persistence
+  Helm              ████████████████░░░░░░░░  70%   Packaging · release mgmt
+  ──────────────────────────────────────────────────────────────
+```
+
+---
+
+## 🔭 Currently Learning
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshujava)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Priyanshujaiswal1024)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyanshjais123@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
+| Domain | Topic | Progress |
+|:------:|:-----:|:--------:|
+| ☸️ Kubernetes | Advanced Helm · Service Mesh (Istio) | 🔥 Active |
+| 🤖 Spring AI | AI Agents · LLM Fine-Tuning · MCP Servers | 🔥 Active |
+| ☁️ AWS | Advanced Networking · EKS · Lambda | 🔥 Active |
+| 📊 Observability | Prometheus · Grafana · OpenTelemetry | 📚 Learning |
+| 🧪 Testing | Testcontainers · Integration Testing | 📚 Learning |
 
 </div>
 
 ---
 
+## 📌 All Projects
+
 <div align="center">
 
-### 💬 Quote I Code By
+| Project | Architecture | Tech Stack | Highlights |
+|:-------:|:------------:|:----------:|:----------:|
+| 🤖 **AI Resume Screening Platform** | Enterprise Microservices | Spring AI · RAG · Kafka · PGVector · K8s · React | Recruiter Copilot · Semantic Ranking · AI Scoring |
+| 🏥 **Hospital Management System** | Monolithic | Spring Boot · OAuth2 · JWT · MySQL · Docker | Google Login · RBAC · Appointments · Email |
+| 🏨 **Hotel Management System** | Microservices | Spring Cloud · Kafka · API Gateway · Docker Compose | Booking · Billing · Event-Driven |
+
+</div>
+
+---
+
+## 📈 Engineering Journey
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🌱 FOUNDATION   B.Tech CSE · Geeta University  [2024]
+                 C · C++ · Java · OOP · DSA
+                 HTML · CSS · JavaScript · React
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🔌 JAVA ROOTS   Classic Web Era
+                 Servlet → JSP → JDBC → Connection Pooling
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ⚡ SPRING ERA   2025 — Full Stack & Backend Engineering
+                 Spring Core · MVC · Boot · Data JPA · Security
+                 OAuth2 · JWT · Docker · Microservices
+                 ├── 🏥 Hospital Management System (Monolithic)
+                 └── 🏨 Hotel Management System (Microservices + Kafka)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ☁️ CLOUD & AI   2026 — Distributed Systems · AI · DevOps
+                 Spring AI · RAG · PGVector · Ollama · MCP
+                 Kafka · Kubernetes · AWS · Jenkins CI/CD
+                 └── 🤖 AI Resume Screening Platform (Flagship)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🔭 NOW          Advanced K8s · Helm · AWS Advanced Services
+                 Spring AI Agents · LLM Fine-Tuning
+                 Prometheus · Grafana · Testcontainers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Priyanshujaiswal1024&show_icons=true&theme=tokyonight&count_private=true&border_radius=12&hide_border=false&title_color=00d9ff&icon_color=00d9ff&text_color=a0d8ff&bg_color=0d1117" height="175"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Priyanshujaiswal1024&theme=tokyonight&border_radius=12&background=0d1117&ring=00d9ff&fire=ff6f00&currStreakLabel=00d9ff" height="175"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshujaiswal1024&layout=compact&theme=tokyonight&langs_count=8&border_radius=12&bg_color=0d1117&title_color=00d9ff&text_color=a0d8ff"/>
+
+<br/>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Priyanshujaiswal1024&theme=tokyo-night&hide_border=true&area=true&area_color=00d9ff&line=00d9ff&point=ff6f00)](https://github.com/Priyanshujaiswal1024)
+
+</div>
+
+---
+
+## 🎯 What I Build
+
+```
+✦ Enterprise Spring Boot microservices with production-grade resilience
+✦ AI-powered systems: RAG pipelines, vector search, LLM integration
+✦ Event-driven architectures using Apache Kafka at scale
+✦ Cloud-native apps on AWS with Kubernetes orchestration
+✦ Secure APIs using Spring Security, OAuth2, JWT, and RBAC
+✦ Full-stack React + Spring Boot applications, end-to-end
+✦ CI/CD pipelines with Jenkins, GitHub Actions, and Docker/K8s
+```
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
 
 > *"First, solve the problem. Then, write the code."* — John Johnson
 
 <br/>
 
-<!-- Snake Animation -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/priyanshujava)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Priyanshujaiswal1024)
+[![Gmail](https://img.shields.io/badge/Gmail-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:priyanshjais123@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Priyanshujaiswal1024/Priyanshujaiswal1024/output/github-snake.svg"/>
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=Building%20the%20Future%2C%20One%20Service%20at%20a%20Time&fontSize=18&fontColor=00d9ff&animation=twinkling&fontAlignY=65" width="100%"/>
 
 </div>
