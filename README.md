@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:0d1117,100:161b22&height=0&section=header" width="100%"/>
-
 <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=280&section=header&text=PRIYANSHU%20JAISWAL&fontSize=68&fontColor=00d9ff&animation=fadeIn&fontAlignY=40&desc=Java%20Full%20Stack%20%E2%80%A2%20Cloud%20Native%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Distributed%20Systems&descAlignY=62&descSize=17&descColor=a0d8ff&stroke=00d9ff&strokeWidth=1" width="100%"/>
 
 <br/>
@@ -103,13 +101,7 @@ public class PriyanshuJaiswal extends SoftwareEngineer {
 ║                                                                               ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
-║   INTELLIGENCE PIPELINE                                                       ║
-║   ─────────────────────────────────────────────────────────────────────────  ║
-║   📄 Resume Upload  ──▶  🔍 Apache Tika  ──▶  ✂️ Chunking  ──▶  🧮 Embed   ║
-║   🗄️  PGVector      ──▶  🔎 Retrieval   ──▶  🧠 RAG       ──▶  🤖 LLM     ║
-║   📊 AI Scoring     ──▶  💬 Copilot     ──▶  📈 Dashboard  ──▶  🎯 Hire   ║
-║                                                                               ║
-║   CORE CAPABILITIES                                                           ║
+║   CORE CAPABILITIES                                                          ║
 ║   ─────────────────────────────────────────────────────────────────────────  ║
 ║   ✦ Recruiter AI Copilot (Chat Memory + Context)                             ║
 ║   ✦ Semantic Candidate Ranking (PGVector + Embeddings)                       ║
@@ -118,246 +110,11 @@ public class PriyanshuJaiswal extends SoftwareEngineer {
 ║   ✦ AI Resume Parsing with Apache Tika                                       ║
 ║   ✦ Skill Gap Analysis & Candidate Comparison                                ║
 ║   ✦ RAG Pipeline with pgvector Semantic Retrieval                            ║
-║   ✦ Multi-Service · Kubernetes-Ready · Docker Compose Dev                   ║
+║   ✦ Multi-Service · Kubernetes-Ready · Docker Compose Dev                    ║
 ║                                                                               ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║  Spring AI · Kafka · Redis · PGVector · Kubernetes · React · Ollama · Docker ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
-```
-
-### 🧠 AI Resume Screening — System Architecture
-
-```mermaid
-flowchart TD
-    A([📄 Resume Upload\nReact Frontend]) --> B[API Gateway\nSpring Cloud]
-    B --> C[Resume Service\nSpring Boot]
-    C --> D[Apache Tika\nParsing Engine]
-    D --> E[Text Chunker\nOverlapping Windows]
-    E --> F[Embedding Service\nOllama / OpenAI]
-    F --> G[(PGVector\nVector Store)]
-
-    B --> H[Job Service\nSpring Boot]
-    H --> I[(PostgreSQL\nJob Descriptions)]
-
-    G --> J[Semantic Retrieval\nCosine Similarity]
-    I --> J
-    J --> K[RAG Engine\nSpring AI]
-    K --> L[LLM Processor\nOllama · llama3]
-    L --> M[AI Scoring Engine\nExplainable Results]
-
-    M --> N[(Redis Cache\nScores + Sessions)]
-    M --> O[Kafka Producer\nScore Events]
-    O --> P[Kafka Topics\nresume-scored]
-    P --> Q[Ranking Consumer\nReal-Time Update]
-
-    Q --> R[Recruiter Dashboard\nReact + REST]
-    R --> S[AI Copilot\nChat Interface]
-    S --> T[Spring AI ChatClient\nTool Calling + Memory]
-    T --> K
-
-    style A fill:#1a1a2e,stroke:#00d9ff,color:#00d9ff
-    style L fill:#1a1a2e,stroke:#ff6f00,color:#ff6f00
-    style G fill:#1a1a2e,stroke:#4169e1,color:#4169e1
-    style O fill:#1a1a2e,stroke:#231f20,color:#ffffff
-    style R fill:#1a1a2e,stroke:#61dafb,color:#61dafb
-```
-
----
-
-## 🏗️ Microservices Architecture
-
-```mermaid
-graph TB
-    Client([🌐 React Client]) --> GW[🔀 API Gateway\nSpring Cloud Gateway]
-
-    GW --> |/auth| AS[🔐 Auth Service\nSpring Security · JWT · OAuth2]
-    GW --> |/resumes| RS[📄 Resume Service\nSpring Boot]
-    GW --> |/jobs| JS[💼 Job Service\nSpring Boot]
-    GW --> |/ai| AIS[🤖 AI Service\nSpring AI · RAG]
-    GW --> |/notifications| NS[📬 Notification Service\nSpring Boot · Mail]
-
-    AS --> DB1[(PostgreSQL\nUsers)]
-    RS --> DB2[(PostgreSQL\nResumes)]
-    JS --> DB3[(PostgreSQL\nJobs)]
-    AIS --> DB4[(PGVector\nEmbeddings)]
-    AIS --> CACHE[(Redis\nSessions + Cache)]
-
-    RS --> KP[📨 Kafka Producer\nresume-uploaded]
-    JS --> KP2[📨 Kafka Producer\njob-created]
-    KP --> KB[Apache Kafka\nEvent Broker]
-    KP2 --> KB
-    KB --> KC[📥 Kafka Consumer\nAI Service]
-    KB --> KC2[📥 Kafka Consumer\nNotification Service]
-
-    SD[🔎 Eureka Server\nService Discovery] -.-> GW
-    SD -.-> RS
-    SD -.-> JS
-    SD -.-> AIS
-
-    style GW fill:#0d1117,stroke:#00d9ff,color:#00d9ff
-    style KB fill:#0d1117,stroke:#ffffff,color:#ffffff
-    style AIS fill:#0d1117,stroke:#ff6f00,color:#ff6f00
-    style SD fill:#0d1117,stroke:#6db33f,color:#6db33f
-```
-
----
-
-## ☁️ AWS Cloud Architecture
-
-```mermaid
-graph TB
-    subgraph Internet
-        U([👤 Users]) --> CF[CloudFront CDN]
-    end
-
-    subgraph AWS_VPC["AWS VPC — us-east-1"]
-        subgraph Public_Subnet["Public Subnet"]
-            CF --> ALB[Application Load Balancer]
-            BAS[Bastion Host]
-        end
-
-        subgraph Private_Subnet_App["Private Subnet — App Tier"]
-            ALB --> EC2_1[EC2 Auto Scaling Group\nSpring Boot Microservices]
-            EC2_1 --> ECR[ECR Container Registry]
-        end
-
-        subgraph Private_Subnet_DB["Private Subnet — Data Tier"]
-            EC2_1 --> RDS[RDS PostgreSQL\nMulti-AZ]
-            EC2_1 --> REDIS[ElastiCache Redis]
-            EC2_1 --> S3[S3 — Resumes + Assets]
-        end
-
-        subgraph K8s_Cluster["EKS Cluster"]
-            ALB --> ING[Ingress Controller]
-            ING --> SVC[K8s Services]
-            SVC --> PODS[Microservice Pods\nHPA Auto-Scaling]
-        end
-    end
-
-    subgraph Observability
-        EC2_1 --> CW[CloudWatch Logs]
-        EC2_1 --> PROM[Prometheus + Grafana]
-    end
-
-    IAM[IAM Roles\n& Policies] -.-> EC2_1
-    IAM -.-> RDS
-    IAM -.-> S3
-
-    style ALB fill:#0d1117,stroke:#ff9900,color:#ff9900
-    style RDS fill:#0d1117,stroke:#527fff,color:#527fff
-    style PODS fill:#0d1117,stroke:#326ce5,color:#326ce5
-    style IAM fill:#0d1117,stroke:#ff9900,color:#ff9900
-```
-
----
-
-## 🔄 Spring AI RAG Pipeline
-
-```mermaid
-flowchart LR
-    subgraph Ingestion["📥 Document Ingestion"]
-        A[PDF / Resume] --> B[TokenTextSplitter\nChunking]
-        B --> C[Embedding Model\nOllama nomic-embed]
-        C --> D[(PGVectorStore\nEmbeddings)]
-    end
-
-    subgraph Retrieval["🔍 Semantic Retrieval"]
-        E[User Query] --> F[Query Embedding\nnomic-embed-text]
-        F --> G[Cosine Similarity\nTop-K Search]
-        D --> G
-        G --> H[Relevant Chunks\nContext Documents]
-    end
-
-    subgraph Generation["🤖 Augmented Generation"]
-        H --> I[PromptTemplate\n+ System Context]
-        E --> I
-        I --> J[ChatClient\nSpring AI]
-        J --> K[LLM — Ollama\nllama3 / mistral]
-        K --> L[AI Response\nExplainable Scoring]
-    end
-
-    subgraph Memory["💬 Conversation Memory"]
-        L --> M[ChatMemory\nInMemory / Redis]
-        M --> J
-    end
-
-    style D fill:#0d1117,stroke:#4169e1,color:#4169e1
-    style K fill:#0d1117,stroke:#ff6f00,color:#ff6f00
-    style J fill:#0d1117,stroke:#6db33f,color:#6db33f
-```
-
----
-
-## ⚙️ Jenkins CI/CD Pipeline
-
-```mermaid
-flowchart LR
-    A([👨‍💻 Git Push\ngithub.com]) --> B[🔔 GitHub Webhook\nTrigger]
-    B --> C[Jenkins Pipeline\nDeclarative]
-
-    C --> D[📥 Checkout\nSCM Stage]
-    D --> E[🔨 Maven Build\nmvn clean package]
-    E --> F[🧪 Unit Tests\nJUnit5 + Mockito]
-    F --> G{Tests\nPassed?}
-
-    G -->|✅ Yes| H[🐳 Docker Build\nMulti-Stage]
-    G -->|❌ No| FAIL([🚨 Notify\nBuild Failed])
-
-    H --> I[🔍 Trivy Scan\nVulnerabilities]
-    I --> J[📦 Docker Push\nECR Registry]
-    J --> K[☸️ kubectl apply\nK8s Deployment]
-    K --> L[📊 Health Check\nReadiness Probe]
-    L --> M{Healthy?}
-
-    M -->|✅| SUCCESS([✅ Slack Notify\nDeployed!])
-    M -->|❌| ROLLBACK([🔄 Auto Rollback\nPrev Version])
-
-    style C fill:#0d1117,stroke:#d24939,color:#d24939
-    style K fill:#0d1117,stroke:#326ce5,color:#326ce5
-    style SUCCESS fill:#0d1117,stroke:#00ff88,color:#00ff88
-    style ROLLBACK fill:#0d1117,stroke:#ff4444,color:#ff4444
-```
-
----
-
-## ☸️ Kubernetes Deployment Architecture
-
-```mermaid
-graph TB
-    subgraph K8s_Cluster["☸️ Kubernetes Cluster"]
-
-        subgraph Ingress_Layer["Ingress Layer"]
-            ING[Nginx Ingress Controller\nTLS Termination + Routing]
-        end
-
-        subgraph App_Layer["Application Layer"]
-            ING --> SVC_GW[Service: api-gateway\nClusterIP]
-            SVC_GW --> DEP_GW[Deployment: api-gateway\nReplicas: 3\nHPA: CPU > 70%]
-
-            ING --> SVC_AI[Service: ai-service\nClusterIP]
-            SVC_AI --> DEP_AI[Deployment: ai-service\nReplicas: 2]
-
-            DEP_GW --> SVC_RS[Service: resume-service]
-            DEP_GW --> SVC_JS[Service: job-service]
-        end
-
-        subgraph Config_Layer["Configuration Layer"]
-            CM[ConfigMap\napplication.yml] -.-> DEP_GW
-            SEC[Secret\nDB creds · API keys] -.-> DEP_GW
-            PVC[PersistentVolumeClaim\nPostgreSQL data] -.-> DEP_GW
-        end
-
-        subgraph Health["Self-Healing"]
-            LP[Liveness Probe\n/actuator/health]
-            RP[Readiness Probe\n/actuator/ready]
-            LP -.-> DEP_GW
-            RP -.-> DEP_GW
-        end
-    end
-
-    style ING fill:#0d1117,stroke:#326ce5,color:#326ce5
-    style DEP_AI fill:#0d1117,stroke:#ff6f00,color:#ff6f00
-    style SEC fill:#0d1117,stroke:#ff4444,color:#ff4444
 ```
 
 ---
@@ -451,50 +208,15 @@ graph TB
 ║  ChatClient API     ──▶  Fluent builder · streaming · sync  ║
 ║  Tool Calling       ──▶  @Tool methods · function calling   ║
 ║  MCP Protocol       ──▶  Model Context Protocol · Agents    ║
-║  RAG Pipeline       ──▶  ETL · Embedding · Retrieval        ║
-║  VectorStore        ──▶  PGVector · Pinecone · Chroma       ║
-║  ChatMemory         ──▶  InMemory · Redis · Conversation    ║
-║  Advisors           ──▶  QuestionAnswerAdvisor · Custom     ║
-║  Prompt Engineering ──▶  PromptTemplate · SystemMessage     ║
-║  Semantic Search    ──▶  Cosine similarity · Top-K          ║
-║  AI Agents          ──▶  Autonomous · Tool-aware · Context  ║
+║  RAG Pipeline       ──▶  ETL · Embedding · Retrieval         ║
+║  VectorStore        ──▶  PGVector · Pinecone · Chroma        ║
+║  ChatMemory         ──▶  InMemory · Redis · Conversation     ║
+║  Advisors           ──▶  QuestionAnswerAdvisor · Custom      ║
+║  Prompt Engineering ──▶  PromptTemplate · SystemMessage      ║
+║  Semantic Search    ──▶  Cosine similarity · Top-K           ║
+║  AI Agents          ──▶  Autonomous · Tool-aware · Context   ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
-```
-
-```mermaid
-mindmap
-  root((🤖 AI Engineering))
-    Spring AI
-      ChatClient
-      Tool Calling
-      Advisors
-      Streaming
-    RAG Pipeline
-      Document Parsing
-      Text Chunking
-      Vector Embeddings
-      Semantic Retrieval
-    LLMs
-      Ollama
-      llama3
-      mistral
-      nomic-embed
-    Vector Stores
-      PGVector
-      Cosine Similarity
-      Top-K Search
-      Hybrid Search
-    Agents & MCP
-      MCP Protocol
-      Tool Registry
-      Function Calling
-      Autonomous Agents
-    Prompt Engineering
-      System Prompts
-      Few-Shot
-      Chain of Thought
-      Context Window
 ```
 
 ---
@@ -587,7 +309,7 @@ mindmap
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshujaiswal1024&layout=compact&theme=tokyonight&langs_count=8&border_radius=12&bg_color=0d1117&title_color=00d9ff&text_color=a0d8ff"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshujaiswal1024&layout=compact&theme=tokyonight&langs_count=8&border_radius=12&bg_color=0d1117&title_color=00d9ff&text_color=a0d8ff&hide=html,css"/>
 
 <br/>
 
